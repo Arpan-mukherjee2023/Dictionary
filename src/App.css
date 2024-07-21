@@ -1,0 +1,30 @@
+
+
+.searchItem {
+    width: 100%;
+    height: auto;
+    background-color: #ADD8E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.searchItem input {
+    width: 40%;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.searchItem button {
+    background-color: #005A9C;
+    color: white;
+    width: 10%;
+    border-radius: 50px;
+}
+
+.searchItem button:hover {
+    background-color: #012169;
+}
